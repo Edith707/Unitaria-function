@@ -1,0 +1,15 @@
+{
+  "name": "prueba-uni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calificacion.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Edith Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
