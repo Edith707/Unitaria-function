@@ -8,3 +8,19 @@ describe("result", function(){
        assert.equal(actual, expected)
     });
 });
+
+describe("result", function() {
+    it("promedio esta fuera de rango valores mayores de 100", function(){
+        var expected = console.log("algun parametro esta duera del rango");
+        var actual =  promedio(140, 20, 60, 80, 90);
+        assert.equal(actual, expected)
+     });
+});
+
+describe("result", function() {
+    it("promedio esta fuera de rango valores mayores de números negativos", function(){
+        var expected = console.log("algun parametro esta duera del rango");
+        var actual =  promedio(-60, 60, 60, 80, 90);
+        assert.equal(actual, expected)
+     });
+});

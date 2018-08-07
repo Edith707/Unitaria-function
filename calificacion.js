@@ -4,7 +4,7 @@
     if(a>=0 && a<=100 && b>=0 && b<=100 && c>=0 && c<=100 && d>=0 && d<=100 && e>=0 && e<=100 ){
       var prom = ((a+b+c+d+e)/5);
       return prom;
-      /*
+      
       if (prom >=60 && prom<=69){
            console.log("tu puntuacion es E")
       }else if(prom>=70 && prom<=79){
@@ -15,7 +15,7 @@
       } else if(prom>=90 && prom<=100){
         console.log("tu puntuacion es A")                
       }
-      */
+      
 
     }
     else{
