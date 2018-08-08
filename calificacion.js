@@ -44,3 +44,14 @@ exports.burbuja = function burbuja(arreglo){
     return arreglo
 }
   
+ exports.remove = function remove(array){
+  var arregloNuevo = [];
+  for(i=0;i<array.length; i++) {
+
+    if((arregloNuevo.indexOf(array[i])) ===-1) {
+      arregloNuevo.push(array [i]);
+    }
+  }
+  return arregloNuevo
+}
+  
