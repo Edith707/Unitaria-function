@@ -1,6 +1,6 @@
 const assert = require("assert")
 const promedio= require("../calificacion").promedio
-const remove = require("../calificacion").remove
+const burbuja = require("../calificacion").burbuja
 
 
 describe("result", function(){
@@ -30,8 +30,8 @@ describe("result", function() {
 
 describe("result", function () {
     it("quitar numeros repetidos", function (){
-        var expected = [9, 11, 12, 13];
-        var actual = remove[9, 11, 13, 13, 11, 11, 12];
+        var expected =  (1, 2, 2, 3, 4, 5, 8, 9, 99, 111, 1000)
+        var actual = burbuja(1000,9,111,8,1,5,4,2,99,2,3);
         assert.equal(actual, expected)
     });
 
