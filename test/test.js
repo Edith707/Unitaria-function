@@ -13,7 +13,7 @@ describe("result", function(){
 
 describe("result", function() {
     it("promedio esta fuera de rango valores mayores de 100", function(){
-        var expected = console.log("algun parametro esta fuera del rango");
+        var expected = "algun parametro esta fuera del rango";
         var actual =  promedio(140, 20, 60, 80, 90);
         assert.equal(actual, expected)
      });
@@ -21,7 +21,7 @@ describe("result", function() {
 
 describe("result", function() {
     it("promedio esta fuera de rango valores mayores de números negativos", function(){
-        var expected = console.log("algun parametro esta fuera del rango");
+        var expected = "algun parametro esta fuera del rango";
         var actual =  promedio(-60, 60, 60, 80, 90);
         assert.equal(actual, expected)
      });
@@ -31,8 +31,11 @@ describe("result", function() {
 describe("result", function () {
     it("quitar numeros repetidos", function (){
         var expected = [9, 11, 12, 13];
-        var actual = remove[9, 11, 13, 13, 11, 11, 12];
-        assert.equal(actual, expected)
+        var actual = remove([9, 11, 13, 13, 11, 11, 12]);
+        console.log(expected, actual);
+        console.log(typeof expected);
+        console.log(typeof actual);
+        assert.equal(actual, expected);
     });
 
 });
